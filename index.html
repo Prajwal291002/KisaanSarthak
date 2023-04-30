@@ -1,0 +1,169 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>AgroCraft</title>
+	
+ <link rel="stylesheet" type="text/css" href="Styles/AgroCraft.css">	
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
+
+</head>
+
+<body >
+	
+	<div id ="WELCOME">KisaanSardhak </h1>
+	<div id = "Navbar-buttons">
+	<label id="Farmerbutton"><a id = "link" href="auth/FarmerLogin.php">FARMER</a></label>
+	<label id="Buyerbutton"><a id = "link" href="auth/BuyerLogin.php">BUYER</a></label>
+	</div>
+</body>
+</html> -->
+
+
+<!--  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisaanSardhak</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+          <!-- <img src={logo} alt="Logo" className="navbar-logo" /> -->
+          <span class="navbar-text">
+           
+            <span class="navbar-project-name">KisaanSardhak</span>
+            <span class="navbar-separator"></span>
+            <!-- <img src={logo2} alt="Logo 2" className="navbar-logo-2" /> -->
+            <span class="navbar-project-description">Dairy Division, Department of Animal Husbandry and Dairying, Ministry of Fisheries, Animal Husbandry and Dairying</span>
+          </span>
+        </div>
+
+      </nav>
+     
+      <!-- Second Container -->
+      
+      <div class="container">
+        <div class="first-division">
+			<div class="navbar-buttons", style="
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		">
+
+			<label id="Farmerbutton"><a id = "link" href="auth/FarmerLogin.php"><button>Farmer</button></a></label>
+			<label id="Buyerbutton"><a id = "link" href="auth/BuyerLogin.php"><button>Buyer</button></a></a></label>
+			</div>
+        </div>
+        <div class="second-division">
+              <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+    
+    <img src="https://enam.gov.in/web/Slider_gallary/1/img_7.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides">
+    
+    <img src="https://enam.gov.in/web/Slider_gallary/1/984.png" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides">
+    
+    <img src="https://enam.gov.in/web/Slider_gallary/1/img_8.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides">
+    
+    <img src="https://enam.gov.in/web/Slider_gallary/1/image_9.jpg" style="width:100%">
+    
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+
+        <div class="third-division">
+          <h1>News & Announcement</h1>
+          <div class="scrolling-text">
+            <ul>
+              <li>Government announces grants for small-scale dairy and poultry farmers to improve their operations.</li>
+              <li>Experts predict rise in demand for organic and free-range dairy and poultry products, creating opportunities for farmers.</li>
+              <li>Major supermarket chain announces commitment to sourcing more dairy and poultry products from local farmers.</li>
+              <li>International trade agreements offer new markets for dairy and poultry exports, providing opportunities for expansion and growth.</li>
+              <li>FDA approves new feed additive for dairy and poultry, promising improved animal health and productivity</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div> 
+
+
+      <div class = "marq">
+        <marquee direction="left" scrollamount="5" width="100%" height="50" >
+          Welcome to KissanSardhak, our e-marketplace platform for dairy and poultry farmers and businesses. Our platform aims to connect buyers and sellers in a secure and efficient manner, providing a convenient and accessible way for businesses and individuals to transact and exchange goods and services.
+        </marquee>
+        </div>
+
+
+
+<!-- lasts-->
+<div class="how-to-container">
+    <div class="column">
+        <h1>How to's of KisaanSardhak</h1>
+    <div class="how-to-section" onClick={handleToggleTeaAnswer}>
+      <h2 class="how-to-question">What are fees and document required.</h2>
+      
+        <div class="how-to-answer">
+          <ul class="how-to-steps">
+            <li>There is no fee for registration on KisaanSardhak?</li>
+            <li>Details required : mandatory details like Name, Sex, Address, DOB, Mobile Number, Bank details etc.</li>
+            <li>Documents required : Documents like Passbook (Cheque leaf), Any Govt Identity proof etc.</li>
+          </ul>
+        </div>
+      
+    </div>
+    <div class="how-to-section" onClick={handleToggleCoffeeAnswer}>
+      <h2 class="how-to-question">What are benefits for a farmer?</h2>
+     
+        <div class="how-to-answer">
+          <ul class="how-to-steps">
+            <li>Transparency in Trade through better price discovery</li>
+            <li>Access to more markets & buyers</li>
+            <li>Real time information on prices and arrival in near by mandis</li>
+
+          </ul>
+        </div>
+      
+    </div>
+    <div class="how-to-section" onClick={handleToggleSmoothieAnswer}>
+      <h2 class="how-to-question">How do I get better price?</h2>
+     
+        <div class="how-to-answer">
+          <ul class="how-to-steps">
+            <li>KisaanSardhak facilitates better prices for a seller through transparent bidding , increased number of buyers from different markets , hence greater negotiation power. Via assaying, price commensurate to the quality of produce is obtained by the seller.</li>
+
+          </ul>
+        </div>
+    
+    </div>
+    </div>
+    <div class="Map">
+        <h1>State-wise Distribution</h1>
+        <img src="https://simplemaps.com/static/svg/in/in.svg" alt="Map of India"/>
+    </div>
+    
+  </div>
+
+  
+<script src="script.js"></script>
+</body>
+</html>
